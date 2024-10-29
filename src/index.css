@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta+Mahee:wght@200;300;400;500;600;700;800&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  
+  
+  max-width: 100vw;
+  height: auto;
+  background-color: white;
+}
+
+.fade-in-up {
+  opacity: 0; /* Start transparent */
+  transform: translateY(100px); /* Start lower */
+  transition: transform 1s ease-out, opacity 0.2s ease-out; /* Transition effect */
+}
+
+.fade-in-up.visible {
+  opacity: 1; /* Fully visible */
+  transform: translateY(0); /* Move to original position */
+}
+
+/* SlideTransition.css */
+
+.slide-transition {
+  opacity: 0; /* Start transparent */
+  transform: translateX(-50px); /* Start from the left */
+  transition: transform 1s ease-out, opacity 0.2s ease-out; /* Transition effect */
+}
+
+.slide-transition.visible {
+  opacity: 1; /* Fully visible */
+  transform: translateX(0); /* Move to original position */
+}
+
+/* Transition.css */
+
+.right-to-left {
+  opacity: 0; /* Start transparent */
+  transform: translateX(50px); /* Start from the right */
+  transition: transform 1s ease-out, opacity 0.2s ease-out; /* Transition effect */
+}
+
+.right-to-left.visible {
+  opacity: 1; /* Fully visible */
+  transform: translateX(0); /* Move to original position */
+}

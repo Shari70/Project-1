@@ -1,0 +1,120 @@
+.section6{
+    width: 100vw;
+    height: auto;
+    background-color: #1a1a1a;
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+    
+}
+
+ .remove-line {
+    text-decoration: none; /* Remove underline from anchor tags in footer */
+    color: inherit; /* Maintain the current text color */
+}
+
+
+ .section6 .footer{
+    width: 90%;
+    height: auto;
+    background-color: #1a1a1a;
+    display: flex;
+   justify-content: center;
+    
+    align-items: center;
+   /* border: 2px solid rebeccapurple; */
+    
+
+   gap: 100px;
+ 
+   
+    
+}
+.footer .box1{
+    width: auto;
+    height: auto;
+    /* border: 2px solid gold; */
+     display: flex;
+    flex-direction: column;
+ 
+    
+   
+    
+}
+.footer h1{
+    font-family: "Abril Fatface", serif;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 500;
+    color: white;
+}
+.footer h2{
+
+    font-family: "Mukta Mahee", sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 200;
+    color : rgba(255, 255, 255, 0.5);
+}
+.footer h3{
+
+    font-family: "Mukta Mahee", sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 200;
+    color : 
+    rgb(255, 255, 255);
+    font-style: italic;
+}
+.footer input{
+
+    background-color: transparent;
+    border: none;
+   
+    outline: none;
+
+    color: white;
+
+}
+hr{
+   
+
+        border: none; /* Remove default border */
+        height: 3px; /* Height of the line */
+        background-color: white; /* Color of the line */
+      
+        margin: 8px 0;
+        
+       
+        
+    
+}
+/* 
+.footer .box1{
+    margin: 0 7rem;
+} */
+
+.footer-line {
+    border: none; /* Remove default border */
+    height: 3px; /* Thickness of the line */
+    background-color: white; /* Color of the line */
+    margin: 1rem 5rem;
+}
+.section6 p {
+    margin-top: 5rem;
+    text-align: center;
+    font-family: "Mukta Mahee", sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 200;
+    color : rgba(255, 255, 255, 0.5);
+}
+
+@media (max-width :1000px){
+    
+ .section6 .footer{
+    flex-wrap: wrap;
+}
+}

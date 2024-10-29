@@ -1,0 +1,186 @@
+.contact{
+    height: auto;
+
+    background-color:#fafafa;
+    width: 100vw;
+}
+.ContactSec{
+    height: auto;
+    margin: 5rem  0 ;
+   
+    background-color:#fafafa;
+    width: 100%;
+    display: flex;
+    /* border: 2px solid gold; */
+    
+}
+
+.ContactSec .leftBox{
+    width: 50%;
+    /* border: 2px solid gold; */
+    height: auto;
+    margin: 5rem  3rem;
+}
+
+/* //////////////////////// */
+.ContactSec .Rightbox{
+    margin: 5rem  3rem;
+    width: 40%;
+    /* border: 2px solid rgb(255, 0, 106); */
+    height: auto;
+}
+.Rightbox h5{
+    font-size: 14px;
+    font-weight: 700 ;
+    color: 
+    rgb(101, 192, 186);
+    line-height: 25px;
+    font-family: "Mukta Mahee", arial, sans-serif;
+}
+.Rightbox h1{
+    font-size: 30px;
+    font-weight: 200 ;
+    color: black;
+    
+    
+    line-height: 54px;
+    font-family: "Abril Fatface", times, serif;
+}
+
+
+
+/* //////////////////////////////// */
+
+
+.form-container {
+    max-width: 100%;
+    margin: auto;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    color: 
+    rgb(108, 117, 125);
+}
+
+.input-style {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.button-style {
+    padding: 10px;
+    border-radius: 4px;
+   
+    border: 2px solid #65c0ba;
+ 
+    
+    color: black;
+    cursor: pointer;
+    width: 30%;
+}
+
+.button-style:hover {
+    background: #65c0ba;
+    color: white;
+}
+
+/* Responsive Styles */
+@media (max-width: 900px) {
+    .input-group {
+        flex-direction: column; /* Stack all elements in a column */
+    }
+
+    .ContactSec{
+       display: flex;
+       flex-wrap: wrap;
+        
+    }
+    
+.ContactSec .leftBox{
+    width: 80%;
+    /* border: 2px solid gold; */
+    height: auto;
+    margin: 5rem  8rem;
+}
+.ContactSec .Rightbox{
+    margin: 1rem  3rem;
+    width: 80%;
+    /* border: 2px solid rgb(255, 0, 106); */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+}
+
+@media (min-width: 901px) {
+    .input-group {
+        flex-direction: row; /* Display elements in a row on wider screens */
+    }
+
+    .input-container {
+        flex: 1;
+    }
+
+    .input-container + .input-container {
+        margin-left: 5px;
+    }
+}
+
+@media (max-width: 550px){
+       
+.ContactSec .leftBox{
+    width: 100%;
+    /* border: 2px solid gold; */
+    height: auto;
+    margin: 5rem  3rem;
+}
+
+.button-style {
+   
+    
+
+    width: 50%;
+}
+}
+@media (max-width: 470px){
+
+    .Rightbox h1{
+        font-size: 20px;
+        font-weight: 200 ;
+        color: black;
+        
+        
+        line-height: 54px;
+        font-family: "Abril Fatface", times, serif;
+    }
+    
+}
+/* ///////////////////////////////// */
+
+
+@media (min-width:1300px) {
+
+    .ContactSec .Rightbox{
+       
+        margin-left: 13rem;
+    }
+    
+}

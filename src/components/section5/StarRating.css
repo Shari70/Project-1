@@ -1,0 +1,37 @@
+
+.star-rating {
+    display: flex;
+    font-size: 1.5rem;
+}
+
+.star {
+    margin-right: 5px; /* Space between stars */
+    position: relative; /* Enable positioning for child elements */
+    color: lightgray; /* Default color for unfilled stars */
+}
+
+.star.filled {
+    color: rgb(101, 192, 186); /* Color for filled stars */
+}
+
+.star.half {
+    position: relative;
+}
+
+.star.half::before {
+    content: '★'; /* Full star */
+    color: rgb(101, 192, 186); /* Color for the filled part */
+    position: absolute;
+    left: 0;
+    width: 50%; /* Fill only the left half */
+    overflow: hidden; /* Hide the overflow */
+}
+
+.star.half::after {
+    content: '★'; /* Full star for unfilled */
+    position: absolute;
+    left: 0;
+    width: 100%; /* Full star width */
+    color: lightgray; /* Color for unfilled part */
+    clip-path: inset(0 50% 0 0); /* Hide the right half */
+}

@@ -1,0 +1,110 @@
+.section3{
+
+   
+    
+    width: 100vw;
+    height: auto;
+    
+    
+    display: flex;
+   
+    flex-direction: column;
+    align-items: center;
+    z-index: -4;
+   
+    position: relative;
+    justify-content: center;
+    clip-path: polygon(0 8%, 100% 0, 100% 100%, 0% 100%);
+    
+        background-color: #65c0ba;
+   
+        
+        
+        margin-top: -15rem;
+        padding-bottom: 8rem;
+        
+        
+} 
+   
+
+.section3 .heading{
+    width: 60%;
+   
+    
+    margin-top: 20rem;
+    height: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.heading h1{
+    font-family: "Abril Fatface", serif;
+    margin-bottom: 5px;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 70px;
+    color: black;
+}
+.heading p{
+    font-family: "Mukta Mahee", sans-serif;
+    color: 
+    rgba(255, 255, 255, 0.7);
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.card .card-title{
+    font-family: "Abril Fatface", serif;
+    font-size: 25px;
+    line-height: 31px;
+    color: black;
+    text-decoration: none;
+
+}
+
+.card .card-body a {
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Make link color inherit from parent */
+}
+
+.card .card-title:hover {
+    color: 
+    rgb(101, 192, 186);
+  }
+.card-text{
+    font-family: "Mukta Mahee", sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    color: 
+    rgb(108, 117, 125);
+}
+
+
+@media (max-width: 900px){
+
+ .section3 .heading{
+    width: 100%;
+    /* background-color: rebeccapurple; */
+ }
+
+
+
+}
+
+
+@media (min-width:200px) and (max-width: 600px){
+
+    
+    .heading h1{
+        font-size: 40px;
+    }
+   
+   
+   
+   }
+
+   
+   

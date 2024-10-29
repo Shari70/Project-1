@@ -1,0 +1,39 @@
+.wrap-reverse{
+    flex-wrap: wrap-reverse;
+}
+
+.btn {
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    margin: 5px;
+   height: 3rem;
+    
+    border: 2px solid #65c0ba ;
+ 
+    width: 10rem;
+}
+
+.c-r{
+    
+    
+}
+
+@media (max-width:1200px) {
+
+    .c-r{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+}
+
+
+.btn:hover{
+    background-color: #65c0ba ;
+    color: white;
+    
+    
+}

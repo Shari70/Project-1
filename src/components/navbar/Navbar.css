@@ -1,0 +1,73 @@
+
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    padding: 10px;
+    color: white;
+    z-index: 5;
+}
+
+.brand {
+    font-size: 24px;
+}
+
+.toggle {
+    cursor: pointer;
+    font-size: 35px;
+}
+
+.full-page-menu {
+    position: fixed;
+    
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0; /* Start hidden */
+    transform: translateY(-100%); /* Move it up */
+    transition: opacity 0.3s ease, transform 0.3s ease; /* Transition effects */
+    pointer-events: none; /* Prevent interaction when closed */
+}
+
+.full-page-menu.open {
+    opacity: 1; /* Fully visible when open */
+    transform: translateY(0); /* Move to original position */
+    pointer-events: auto; /* Enable interaction when open */
+}
+
+.close-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    color: black;
+}
+
+.menu {
+    list-style: none;
+    text-align: center;
+}
+
+.menu li {
+    margin: 20px 0;
+}
+
+.menu a {
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+}
+

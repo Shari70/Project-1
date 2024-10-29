@@ -1,0 +1,303 @@
+
+.main2 {
+    height: auto;  
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+     
+    
+}
+
+
+
+
+.image {
+    width: 40%;
+    background-image: url("../../assets/about.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    margin: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.content {
+    width: 40%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.content h1 {
+    font-family: "Abril Fatface", serif;
+    font-weight: 500;
+    font-size: 32px;
+    color: black;
+    margin-left: 5px;
+}
+
+.content p {
+    font-family: "Mukta Mahee", sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgb(108, 117, 125);
+}
+
+.play {
+    height: auto;
+    display: flex;
+    padding: 4px;
+    margin: 5px;
+   
+    
+    align-items: center;
+
+    
+}
+
+.play span {
+   
+    margin: 0 5px 20px 0;   
+    color: #65c0ba;
+    font-size: 40px;
+    font-weight: 300;
+}
+.play h1{
+    
+    color: #65c0ba;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 500;
+}
+
+/* //////////////////////for hotel section////////////////////////// */
+/* .H-main2{
+    height: 130vh;  
+    width: 100vw;
+    background-color: white;
+   display: flex;
+   justify-content: center;
+  
+   align-items: center;
+   flex-wrap: wrap;
+   border: 2px solid red;
+ 
+
+}
+
+.H-main2 .image{
+    border: 2px solid yellow;
+    width: 40%;
+   
+    background-image: url("../../assets/hero_1.webp");
+     
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+  
+    height: 90vh;
+    margin: 20px;
+   
+    
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.H-main2 .content{
+    width: 40%;
+    
+    border: 2px solid green;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    
+    
+    
+    flex-direction: column;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+
+.Hb-main2{
+   
+    
+    height: auto;  
+    width: 100vw;
+    background-color: white;
+   display: flex;
+   justify-content: center;
+  
+   align-items: flex-start;
+   
+   
+   flex-direction: row;
+   margin-top: -9rem;
+ 
+     flex-wrap: wrap-reverse;
+}
+
+
+
+.Hb-main2 .image{
+ 
+    
+    width: 40%;
+   
+    background-image: url("../../assets/about.jpg");
+     
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+  
+    height: 90vh;
+    margin: 20px;
+   
+    
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 18px;
+
+}
+
+
+.Hb-main2 .content{
+    width: 40%;
+    
+  
+    
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    
+    
+    margin-top: 8rem;
+    flex-direction: column;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.H-main2 .play button{
+
+    border: 2px solid #65c0ba ;
+    padding: 6px 28px;
+}
+
+
+.H-main2 .play button:hover{
+
+  background-color: #65c0ba ;
+  color: white;
+    
+}
+ */
+
+
+
+
+   
+
+@media (min-width: 600px) and (max-width:1200px) {
+
+    .main2{
+        flex-direction: column;
+        /* margin-top: 10rem; */
+        
+        
+        
+        
+    }
+ 
+    
+   .main2 .image{
+      
+        height: 60vh;
+        width: 60vw;
+        /* margin:10px 10px 0px 10px;
+         */
+        background-position: center;
+        
+        
+    }
+     .main2 .content{
+       
+        
+        display: flex;
+        align-items: center;
+        width: 70%;
+        height: 40vh;
+       
+        
+
+    }
+    .content h1{
+        font-size: 25px;
+        
+    }
+
+}
+
+
+
+
+
+
+@media (min-width: 100px) and (max-width:600px) {
+
+    .main2{
+        flex-direction: column;
+       
+        
+        
+        
+        
+        
+    }
+ 
+    
+    .image{
+      
+        height: 60vh;
+        width: 80vw;
+        margin:10px 10px 0px 10px;
+        
+        background-position: center;
+        
+        
+    }
+    .content{
+       
+        
+        width: auto;
+      
+        
+        height: 60vh;
+        
+        
+        
+
+    }
+    .content h1{
+        font-size: 25px;
+        
+    }
+    .content p {
+        line-height: 25px;
+        margin: 5px;
+    }
+
+}
+
+
+

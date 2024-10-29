@@ -1,0 +1,211 @@
+
+
+.hotel{
+    height: auto;
+    /* background-color: rgb(231, 25, 25); */
+    width: 100vw;
+    border: 2px soli rebeccapurple;
+}
+.H-main{
+    position: relative;
+    height: 90vh;
+    width: 100vw;
+    min-width: 100vw;
+    background-image: url("../../../../assets/hero_5.webp");
+ 
+    
+    
+    
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+   
+    
+
+}
+
+
+
+.H-main::before {
+    content: "";                      /* Required for pseudo-elements */
+    position: absolute;               /* Position overlay */
+    top: 0;                           /* Start at the top */
+    left: 0;                          /* Align to the left */
+    right: 0;                         /* Stretch to the right */
+    bottom: 0;                        /* Stretch to the bottom */
+    background-color: rgba(0, 0, 0, 0.2); /* Dark overlay with transparency */
+    z-index: 1;               }
+
+.H-main .hero{
+        /* border: 2px solid red; */
+        height: 80vh;
+        width: 100vw;
+        display: flex;  
+        justify-content: center;
+        align-items: center;
+    } 
+.H-main .Htext{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+    width: 100vw;
+    color: white;
+
+    
+    
+    /* border: 2px solid yellow; */
+}
+  .Htext h1{
+    font-family: "Abril Fatface", serif;
+    font-weight:700;
+    font-size: 80px;
+    line-height: 80px;
+    color: rgb(255, 255, 255);
+    margin-left: 25px;
+
+}
+ .Htext h3{
+
+    font-family: "Mukta Mahee", sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+  
+    
+    margin-top: 10px;
+    line-height: 45px;
+    color: rgb(255, 255, 255);
+}
+
+.Htext h3 a{
+
+    
+    text-decoration: none;
+  
+    
+    color: rgb(255, 255, 255,0.5);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+.Htext h3 a:hover{
+
+    border-bottom: 2px solid rgba(255, 255, 255);
+    
+    
+    color: rgb(255, 255, 255);}
+.text button{
+    border: 2px solid white;
+    
+    font-size: 15px;
+    font-weight: 400;
+    width: 10rem;
+    height: 3rem;
+    color: white;
+    
+    
+    background-color: transparent;
+    cursor: pointer;
+}
+.text button:hover{
+    background-color: #f8f9fa;
+    color:black
+}
+
+@media (max-width: 600px) {
+   .Htext h1 {
+        font-size: 50px; /* Adjust heading size */
+    }
+     .Htext h3{
+        font-size: 15px;
+    }
+
+}
+
+/* ///////////////////////////////////////////////// */
+
+
+.section1{
+    margin: 3rem 0rem;
+    width: 100vw;
+    height: auto;
+    
+    
+    display: flex;
+   
+    flex-direction: column;
+    align-items: center;
+    background-color:  #fafafa;
+    border: 1px solid #e0e0e0;
+    justify-content: center;
+    
+    
+   
+    
+}
+.section1 .heading{
+    width: 60%;
+    /* border: 2px solid pink; */
+    margin: 2.5rem 0rem;
+    height: 30vh;
+    text-align: center;
+}
+ .section1 .heading h1{
+    
+    margin-bottom: 5px;
+}
+ .section1 .heading p{
+    font-size: 20px;
+    line-height: 25px;
+}
+.section1 .items{
+    width: 80%;
+    height: auto;
+    /* border: 3px solid black; */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+    gap: 100px;
+   justify-items: center;
+   row-gap: 10px;
+    
+}
+
+.section1 .item{
+
+    width: 300px;
+    height: 300px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ .section1 .item .icon{
+    width: 70px;
+
+}
+  .section1 .item p{
+    text-align: center;
+}
+
+@media (min-width: 100px) and (max-width:900px) {
+
+    .section1 .heading{
+        width: 100%;
+        margin-top: 1rem;
+        height: auto;
+    }
+    
+        
+        
+        
+        
+        
+    
+}
+
+/* //////////////////////////////////////////////////// */
+
+

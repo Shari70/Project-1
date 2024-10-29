@@ -1,0 +1,50 @@
+.about{
+    height: auto;
+    background-color: white;
+}
+
+
+.navicon{
+    width: 300px;
+    /* border: 2px solid  gold; */
+    height: 300px;
+
+}
+.navicon img{
+ width: 100%;
+}
+.Abitem{
+    
+    width: 300px;
+    height: 415px;
+  
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+
+    
+    background-color:  #fafafa;
+    border: 1px solid white; /* Light gray border */
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+   
+    
+}
+.Abitem h3{
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 200;
+    color: 
+    rgb(206, 212, 218);
+    margin: 18px;
+}
+.Abitem h1{
+    font-size: 26px;
+    line-height: 31px;
+    font-weight: 500;
+     margin: -14px 19px;
+    
+    
+}

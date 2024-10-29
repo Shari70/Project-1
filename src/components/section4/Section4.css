@@ -1,0 +1,74 @@
+
+.section4 {
+    width: 100vw;
+    margin: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fafafa;
+}
+
+.section4 .heading {
+    width: 60%;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.section4 .items1 {
+    width: 100%; 
+    display: flex; /* Use flexbox */
+    flex-wrap: wrap; /* Allow items to wrap */
+    justify-content: center; /* Center items horizontally */
+    gap: 50px; /* Space between items */
+    align-items: center;
+}
+
+.section4 .item {
+    width: 350px; /* Fixed width for items */
+    height: 350px; /* Fixed height for items */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center text */
+}
+
+.section4 .item .icon {
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem; /* Space below the icon */
+    
+    overflow: hidden;
+}
+
+.section4 .item .icon img {
+    width: 75px;
+    height: auto; /* Keep aspect ratio */
+    
+    
+    
+}
+
+/* Responsive styles */
+@media (max-width: 900px) {
+    .section4 .items1 {
+        flex-direction: column; /* Stack items in a single column on smaller screens */
+        align-items: center; /* Center items */
+    }
+}
+@media (min-width: 1360px) {
+    .section4 .items1 {
+        width: 100%;
+        flex-direction: row; /* Stack items in a single column on smaller screens */
+        align-items: center; /* Center items */
+        justify-content: center;
+  
+        
+    }
+}

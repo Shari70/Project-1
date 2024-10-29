@@ -1,0 +1,226 @@
+
+
+
+.gallery{
+    height: auto;
+    background-color:  #fafafa;;
+}
+.GalSec{
+    height: 150vh;
+   
+    
+    margin-top: 4rem;
+    padding: 5rem 0;
+    margin: 3rem 0rem;
+    width: 100vw;
+    height: auto;
+    
+    
+    
+    display: flex;
+   
+    flex-direction: column;
+    align-items: center;
+   
+    color: white;
+   
+    
+    justify-content: center;
+    
+    
+   
+}
+
+.GalSec .items{
+    width: 90%;
+    height: auto;
+    /* border: 3px solid black; */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+    gap: 40px;
+   justify-items: center;
+   row-gap: 10px;
+   overflow: hidden;
+   
+}
+
+.GalSec .item{
+   
+
+    
+    width: 25%px;
+    height: auto;
+   
+    
+    
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    /* border: 3px solid green; */
+}
+
+
+
+ .GalSec .item .icon{
+    width: 25%;
+    /* border: 2px solid red; */
+
+}
+ .GalSec .item .icon img{
+    
+    width: 255px;
+    height: 171px;
+}
+
+
+
+/* //////////////////////////for largeicons/////////////////////////////////// */
+
+.largeicons {
+    margin : 10px 0;
+    width: 90%;
+    height: auto;
+    /* border: 3px solid rgb(208, 12, 12); */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Display 2 items per row */
+    gap: 40px;
+    justify-items: center;
+    row-gap: 10px;
+    overflow: hidden;
+}
+
+.largeicons .item {
+    /* border: 2px solid yellow; */
+    width: 100%; /* Use full width of the grid column */
+    height: auto;
+}
+
+
+.largeicons .item .icon{
+    width: 100%;
+    /* border: 2px solid red; */
+
+}
+ .largeicons .item .icon img{
+    
+    width: 100%;
+    height: auto;
+}
+
+
+/* Responsive adjustments */
+
+
+@media (max-width: 1030px) {
+    .GalSec .items {
+      
+        grid-template-columns: repeat(2, 1fr);
+       
+    }
+       
+.GalSec .item{
+   
+
+    
+    width: 40vw;
+    height: auto;
+   
+    
+   
+    
+    /* justify-content: center;
+    align-items: center; */
+    /* border: 3px solid green; */
+    
+
+}
+
+
+ .GalSec .item .icon{
+    width: 100%;
+    /* border: 2px solid red; */
+    height: auto;
+
+}
+ .GalSec .item .icon img{
+    
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+
+
+}
+
+@media (max-width: 770px) {
+    .GalSec .items {
+      
+        grid-template-columns: repeat(1, 1fr);     
+        gap: 20px;
+    }
+  
+    .largeicons{
+        grid-template-columns: repeat(1, 1fr); /* Display 2 items per row */
+    }
+
+
+    
+.GalSec .item{
+   
+
+    
+    width: 80vw;
+    height: auto;
+   
+    
+   
+    
+    /* justify-content: center;
+    align-items: center; */
+    /* border: 3px solid green; */
+    
+
+}
+
+
+ .GalSec .item .icon{
+    width: 100%;
+    /* border: 2px solid red; */
+    height: auto;
+
+}
+ .GalSec .item .icon img{
+    
+    width: 100%;
+    height: 100%;
+    
+}
+
+}
+
+
+@media (min-width: 1300px) {
+    
+
+    .GalSec .items{
+        width: 90%;
+        height: auto;
+        /* border: 3px solid black; */
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+      
+        
+       justify-items: center;
+       row-gap: 20px;
+       overflow: hidden;
+       justify-content: center;
+       
+    }
+    
+    
+}
+
+
